@@ -1,0 +1,71 @@
+:root { 
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  color: #ffffff;
+}
+
+.min-h-screen {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  background-size: 200% 200%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.max-w-7xl {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Improve card appearance */
+.bg-zinc-900 {
+  background: linear-gradient(180deg, #18181b 0%, #27272a 100%);
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.bg-zinc-900:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px -4px rgba(0, 0, 0, 0.6);
+}
+
+
+.hero-section {
+  position: relative;
+  isolation: isolate;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+p, span, div {
+  color: #f8fafc;
+}
+
+.text-zinc-400 {
+  color: #d4d4d8 !important; 
+}
+
+input, button, textarea, select {
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #fff;
+}
