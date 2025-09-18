@@ -1,0 +1,44 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/dist/
+/build/
+
+# Vite
+client/.vite/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Tailwind JIT cache
+client/.tailwind-cache/
+
+# Misc
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+
+# Server specific
+server/node_modules/
+server/.env
